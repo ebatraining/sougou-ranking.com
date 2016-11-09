@@ -1,0 +1,487 @@
+@charset "utf-8";
+/*Layout
+----------------------------------------------------*/
+strong{
+font-weight: normal;
+}
+body{
+font-family:"���C���I",Meiryo,"�l�r �o�S�V�b�N","MS PGothic","�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro",Osaka,sans-serif;
+font-size: 16px;
+}
+
+.header{
+width: 100%;
+height: 80px;
+background: url(../images/header-bg.png) repeat-y;
+position: relative;
+z-index: 9999;
+}
+.wrapper{
+max-width: 1020px;
+margin: 0 auto;
+position: relative;
+}
+.main-img{
+max-width: 1020px;
+margin: 140px auto 0 auto;
+position: relative;
+}
+.header .title img{
+float: left;
+}
+.header .title .hgroup{
+padding: 15px 0 0 10px;
+}
+.header .title h1{
+float: left;
+line-height: 1.6em;
+color: #222;
+font-size: 0.75em;
+}
+.header .title h1 img{
+position: absolute;
+top: 0;
+}
+.header .title h1 strong{
+margin-left: 200px;
+}
+.header .title p{
+font-size: 0.75em;
+line-height: 1.6em;
+color: #222;
+}
+.contact{
+position: absolute;
+right: 0;
+top: 0;
+line-height: 40px;
+}
+.contact a{
+color: #0078ff;
+padding: 0px 20px;
+font-weight: bold;
+font-size: 0.75em;
+}
+.container{
+position: relative;
+}
+.container-in{
+width: 1020px;
+margin-right: -240px;
+float: left;
+}
+.baner {
+	width: 240px;
+	float: right;
+	margin-top: 40px;
+}
+.baner0 {
+width: 240px;
+}
+.baner2{
+	width: 240px;
+	float: right;
+}
+.baner3{
+	padding-bottom: 20px;
+}
+.baner4{
+	width: 240px;
+	padding: 0px;
+	clear: both;
+	float: right;
+
+}
+a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.categoly{
+margin-right: 250px;
+}
+.information{
+}
+.information h2{
+line-height: 40px;
+font-size: 0.875em;
+color: #444;
+border-bottom: 1px solid #969696;
+padding-left: 10px;
+font-weight: bold;
+}
+.information dl{
+padding: 10px;
+border-bottom: 1px solid #eee;
+font-size: 0.875em;
+}
+.information dt{
+float: left;
+}
+.information dt span{
+padding: 2px 5px;
+margin: 0 5px;
+font-size: 0.75rem;
+background-color: #ffcc00;
+font-weight: bold;
+color: #555;
+}
+.footer{
+text-align: center;
+margin-top: 10px;
+background: url(../images/footer-bg.jpg);
+background-size: 100% auto;
+width: 100%;
+height: 120px;
+}
+.footer address{
+padding: 10px 0;
+font-size: 0.875em;
+color: #444;
+}
+.categoly .three-flow{
+width: 365px;
+padding: 10px;
+margin-bottom: 10px;
+float: left;
+position: relative;;
+}
+.categoly h2{
+line-height: 40px;
+font-size: 0.875em;
+color: #444;
+border-bottom: 1px solid #969696;
+padding-left: 10px;
+font-weight: bold;
+}
+.categoly .three-flow img{
+width: 100%;
+height: auto;
+}
+.categoly h6{
+font-size: 0.875em;
+background-color: rgba(0,0,0,0.7);
+position: absolute;
+bottom: 100px;
+line-height: 24px;
+width: 355px;
+padding-left: 10px;
+padding-top: 5px;
+}
+.categoly h6 a{
+color: #ffcc61;
+}
+.categoly .three-flow p{
+font-size: 0.75em;
+padding: 5px;
+height: 90px;
+line-height: 1.6em;
+background-color: rgba(0,0,0,0.7);
+color: #fff;
+position: absolute;
+bottom: 0;
+margin-right: 10px;
+}
+/*categoly_list_veiw
+---------------------------------*/
+.categoly_list_veiw .article_box{
+width: 368px;
+height: 60px;
+border: 1px solid #aaa;
+float: left;
+padding: 5px;
+margin: -1px 0px 0px -1px;
+}
+.categoly_list_veiw h2{
+color: #444;
+font-weight: bold;
+line-height: 1.6em;
+padding-left: 10px;
+padding-bottom: 6px;
+}
+.categoly_list_veiw img{
+float: left;
+padding: 5px 10px 5px 5px;
+}
+.categoly_list_veiw a{
+color: #0078ff;
+font-size: 0.75em;
+}
+.categoly_list_veiw h5{
+font-size: 0.75em;
+color: #444;
+}
+/*categoly_navigetion
+--------------------------------------*/
+.sub_categoly .sub_wrapper{
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.categoly_navigetion{
+width: 1020px;
+margin-right: -240px;
+float: left;
+}
+.categoly_navigetion ul{
+margin-right: 240px;
+margin-left: 1px;
+margin-top: 1px;
+}
+.categoly_navigetion ul li{
+width: 368px;
+height: 60px;
+border: 1px solid #aaa;
+float: left;
+padding: 5px;
+margin: -1px 0px 0px -1px;
+}
+.categoly_navigetion ul li a{
+line-height: 60px;
+padding-left: 20px;
+color: #0078ff;
+display: block;
+}
+.categoly_navigetion ul li a:hover{
+background: rgba(255,255,255,0.7);
+color: #00f;
+}
+.sub_categoly .baner{
+margin-top: 0px;
+}
+/*groval-navi
+--------------------------------------*/
+.header .groval_navigetion{
+	position: absolute;
+	left: 98px;
+	top: 42px;
+	width: 920px;
+}
+.groval_navigetion li{
+width: 12.5%;
+float: left;
+height: 30px;
+padding-top: 10px;
+}
+.groval_navigetion li a{
+color: #0078ff;
+text-align: center;
+font-size: 0.75em;
+font-weight: bold;
+line-height: 30px;
+border-right: 1px solid #aaa;
+display: block;
+}
+.groval_navigetion li a.child{
+border-left: 1px solid #aaa;
+}
+.groval_navigetion li a:hover{
+background: rgba(255,255,255,0.7);
+color: #00f;
+}
+/*baner
+--------------------------------------*/
+.baner img{
+margin-bottom: 20px;
+}
+/*lanking
+--------------------------------------*/
+.lanking{
+width: 980px;
+min-height: 200px;
+margin: 100px auto 10px auto;
+}
+.lanking h2{
+line-height: 40px;
+font-size: 0.875em;
+font-weight: bold;
+color: #444;
+}
+.one_flow,.two_flow_inner{
+padding: 10px;
+box-shadow:0px 0px 4px rgba(0,0,0,0.7);
+padding-left: 150px;
+background: url(../images/crown_no1.png) no-repeat 10px center;
+margin-bottom: 20px;
+}
+.three_flow_inner{
+padding: 10px;
+box-shadow:0px 0px 4px rgba(0,0,0,0.7);
+min-height: 350px;
+margin-bottom: 20px;
+}
+.two_flow_inner{
+width: 320px;
+float: left;
+min-height: 340px;
+}
+.two_flow_inner.three{
+margin-right: 0;
+background: url(../images/crown_no3.png) no-repeat 10px center;
+}
+.one_flow h3,.two_flow_inner h4,.two_flow_inner h5,.three_flow_inner h6,.three_flow_inner h5{
+font-size: 0.875em;
+color: #444;
+line-height: 32px;
+border-bottom: 1px solid #eee;
+margin-bottom: 10px;
+}
+.two_flow_inner h4,.two_flow_inner h5,.three_flow_inner h6,.three_flow_inner h5{
+line-height: 0;
+line-height: 1.6em;
+}
+.one_flow h3 a,.two_flow_inner h4 a,.two_flow_inner h5 a,.three_flow_inner h6 a,.three_flow_inner h5 a{
+color: #ffcc00;
+margin-left: 20px;
+}
+.one_flow img{
+float: left;
+margin-right: 20px;
+}
+.one_flow p,.two_flow_inner p,.three_flow_inner p{
+font-size: 0.75em;
+color: #444;
+line-height: 1.6em;
+margin-top: 10px;
+}
+.two_flow_inner.second{
+background: url(../images/crown_no2.png) no-repeat 10px center;
+margin-right: 20px;
+}
+.three_flow_inner{
+width: 292px;
+float: left;
+margin-right: 20px;
+}
+.three_flow_inner img{
+width: 100%;
+height: auto;
+}
+.three_flow_inner:last-child{
+margin-right: 0;
+}
+/*overlayer
+--------------------------------------*/
+.overlay{
+width: 0;
+height: 0;
+opacity: 0;
+background: rgba(0,0,0,0.6);
+position: fixed;
+transition:opacity 0.3s ease-in;
+-webkit-transition:opacity 0.3s ease-in;
+-moz-transition:opacity 0.3s ease-in;
+-o-transition:opacity 0.3s ease-in;
+}
+.overlay:target{
+width: 100%;
+height: 100%;
+opacity: 1;
+z-index: 9999;
+top: 0;
+left: 0;
+}
+.overlay ul{
+width: 0;
+height: 0;
+opacity: 0;
+}
+.overlay:target ul{
+width: 1020px;
+height: 550px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+margin: 40px auto;
+opacity: 1;
+}
+.yoko-baner img{
+width: 980px;
+height: 100px;
+}
+/*site-map
+----------------------------------------------------*/
+.site_map {
+margin-top: 120px;
+}
+.site_map h2 {
+color: #444;
+font-size: 0.875em;
+font-weight: bold;
+}
+.site_map ul {
+width: 49%;
+float: left;
+margin-right: 1%;
+}
+.site_map ul li{
+line-height: 40px;
+}
+.site_map ul li a{
+display: block;
+border-bottom: 2px dotted #aaa;
+font-size: 0.75em;
+color: #0078ff;
+}
+.site_map ul li a:hover{
+color: #00f;
+}
+.site_map ul li ul{
+list-style-type: disc;
+padding-left: 40px;
+}
+.site_map ul li ul li a{
+border: none;
+}
+#site_map_navigetion{
+position: absolute;
+right: 0px;
+top: 0;
+height: 40px;
+}
+#site_map_navigetion a{
+color: #0078ff;
+display: inline-block;
+line-height: 40px;
+font-weight: bold;
+}
+#site_map_navigetion a:hover{
+color: #0000ff;
+}
+/*alert
+----------------------------------------------------*/
+h2.alert {
+color: #dd0000;
+font-size: 1em;
+line-height: 40px;
+}
+.site_map h3,.site_map h4{
+font-size: 0.875em;
+line-height: 1.6em;
+color: #444;
+}
+.site_map h4 a{
+color: #0078ff;
+}
+.site_map h4 a:hover{
+color: #0000ff;
+}
+/*clearfix
+----------------------------------------------------*/
+.clearfix{
+zoom:1;
+}
+.clearfix:after{
+content:"";
+display:block;
+clear:both;
+}
+section {
+	height: 200px;
+	width: 700px;
+}
+
+.pagetop {
+	  display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}

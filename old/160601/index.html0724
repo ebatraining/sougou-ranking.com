@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>総合ランキングサイト | ランキングサイト</title>
+<meta name="keywords" content="総合ランキングサイト,ランキングサイト,総合ランキング" />
+<meta name="description" content="総合ランキングサイトです。レンタル、スイーツ、企業などの様々なランキングが掲載されている、総合ランキングサイトです。" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<meta name="google-site-verification" content="lq1GtB1l8mAEaKTvkVPzKseyhO8MkyIYH0fYW_7fkJM" />
+<meta name="msvalidate.01" content="1FC35B35E388EEF0F0C8F5E3C5813000" />
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+            	auto: true,
+            });
+        });
+</script>
+
+</head>
+<body>
+
+<div class="header">
+<div class="wrapper">
+<div class="title clearfix">
+<a href="./"><img src="images/logo.png" width="90" height="90" alt="ランキングサイト" title="ランキングサイト" /></a>
+
+<div class="hgroup">
+
+<h1><img src="images/title.png" width="200" height="50" alt="総合ランキングサイト" /><strong>ランキングサイト｜</strong></h1>
+<p>様々なジャンルの総合<strong>ランキングサイト</strong>です。</p>
+<p id="site_map_navigetion"><a href="site_map/site_map.html">サイトマップ</a></p>
+
+
+<!--<div class="contact">
+
+<ul>
+
+	<li><a href="#form_overlay">お問い合わせ</a>
+	
+		<div class="overlay" id="form_overlay">
+		
+		<ul>
+		
+		<li>この度はランキングサイトをご閲覧いただき有難うございます。ご質問などございましたらお気軽にお問い合わせくださいませ。</li>
+		
+		<li class="close"><a href="#page">閉じる</a></li>
+		
+		<li>お名前：<input type="text" name="text" /></li>
+		
+		<li>お問い合わせ内容：<br />
+			<textarea cols="50" rows="5"></textarea>
+		</li>
+		
+		<li>
+			<input type="submit" value="送信する" />
+			<input type="reset" value="リセット" />
+		</li>
+		
+		</ul>
+		
+		</div>
+	
+	</li>
+	
+</ul>
+
+</div>-->
+
+</div>
+
+</div>
+
+<div class="groval_navigetion">
+
+<ul class="groval_navigetion_veiw">
+
+<li class="groval_navigetion_list"><a href="index.html" class="groval_bg_1 child">ホーム</a></li>
+
+<li class="groval_navigetion_list"><a href="rental.html" class="groval_bg_1">レンタル</a></li>
+
+<li class="groval_navigetion_list"><a href="hapiness.html" class="groval_bg_1">占い</a></li>
+
+<li class="groval_navigetion_list"><a href="company.html" class="groval_bg_1">企業</a></li>
+
+<li class="groval_navigetion_list"><a href="boranthia.html" class="groval_bg_1">ボランティア</a></li>
+
+<li class="groval_navigetion_list"><a href="sweet.html" class="groval_bg_1">スイーツ</a></li>
+
+<li class="groval_navigetion_list"><a href="teaching.html" class="groval_bg_1">家庭教師</a></li>
+
+<li class="groval_navigetion_list"><a href="accessories.html" class="groval_bg_1">アクセサリー</a></li>
+
+<li class="groval_navigetion_list"><a href="medical.html" class="groval_bg_1 child">医療</a></li>
+
+<li class="groval_navigetion_list"><a href="cosume.html" class="groval_bg_1">化粧品</a></li>
+
+<li class="groval_navigetion_list"><a href="health.html" class="groval_bg_1">健康</a></li>
+
+<li class="groval_navigetion_list"><a href="diet.html" class="groval_bg_1">ダイエット</a></li>
+
+<li class="groval_navigetion_list"><a href="nayami.html" class="groval_bg_1">悩み系</a></li>
+
+<li class="groval_navigetion_list"><a href="katei.html" class="groval_bg_1">家庭</a></li>
+
+<li class="groval_navigetion_list"><a href="syoshi.html" class="groval_bg_1">書士系</a></li>
+
+<li class="groval_navigetion_list"><a href="omotya.html" class="groval_bg_1">おもちゃ</a></li>
+
+<li class="groval_navigetion_list"><a href="inryou.html" class="groval_bg_1 child">飲料</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="main-img">
+
+<ul class="bxslider">
+  <li><img src="images/rank.jpg" alt="総合ランキングサイト" /></li>
+  <li><a href="rental.html"><img src="images/rental.jpg" alt="レンタル" /></a></li>
+  <li><a href="hapiness.html"><img src="images/uranai.jpg" alt="占い" /></a></li>
+  <li><a href="company.html"><img src="images/kigyou.jpg" alt="企業" /></a></li>
+  <li><a href="boranthia.html"><img src="images/boranthia.jpg" alt="ボランティア" /></a></li>
+  <li><a href="sweet.html"><img src="images/suitu.jpg" alt="スイーツ" /></a></li>
+  <li><a href="teaching.html"><img src="images/katekyo.jpg" alt="家庭教師" /></a></li>
+  <li><a href="accessories.html"><img src="images/akuse.jpg" alt="アクセサリー" /></a></li>
+  <li><a href="medical.html"><img src="images/iryou.jpg" alt="医療" /></a></li>
+  <li><a href="cosume.html"><img src="images/kesyou.jpg" alt="化粧" /></a></li>
+  <li><a href="health.html"><img src="images/health.jpg" alt="健康" /></a></li>
+  <li><a href="diet.html"><img src="images/diet.jpg" alt="ダイエット" /></a></li>
+  <li><a href="nayami.html"><img src="images/nayami.jpg" alt="悩み" /></a></li>
+  <li><a href="katei.html"><img src="images/katei.jpg" alt="家庭" /></a></li>
+  <li><a href="omotya.html"><img src="images/omotya.jpg" alt="おもちゃ" /></a></li>
+  <li><a href="inryou.html"><img src="images/inryou.jpg" alt="飲料" /></a></li>
+</ul>
+</ul>
+
+</div>
+
+<div class="wrapper container clearfix">
+
+<div class="container-in">
+
+<div class="categoly_list_veiw clearfix">
+
+<h2 style="margin:0; padding:0;">ランキングサイトカテゴリ</h2>
+<p style="font-size:14px;">様々なカテゴリーのランキングがありますので、ご興味のあるカテゴリーをクリックしてください。</p>
+
+<div class="article_box clearfix" style="height:60px;">
+<a href="rental.html" class="groval_bg_1"><img src="images/g_lanking_07.jpg" width="75" height="50" alt="観葉植物レンタル| グリーンレンタル" /></a>
+<h3 style="font-size:16px;"><a href="rental.html" class="groval_bg_1">レンタル</a></h3>
+<p style="font-size:12px;">レンタル関連のカテゴリーをまとめてます。観葉植物レンタル、ジュエリーレンタル等がございます。</p>
+
+</div>
+
+<div class="article_box clearfix" style="height:60px;">
+<a href="hapiness.html" class="groval_bg_1"><img src="images/g_lanking_02.jpg" width="75" height="50" alt="開運" /></a>
+
+<h3 style="font-size:16px;"><a href="hapiness.html" class="groval_bg_1">開運</a></h3>
+<p style="font-size:12px;">開運関連のカテゴリーをまとめてます。占いなどにまつわる小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="company.html" class="groval_bg_1"><img src="images/g_lanking_01.jpg" width="75" height="50" alt="企業" /></a>
+
+<h3 style="font-size:16px;"><a href="company.html" class="groval_bg_1">企業</a></h3>
+<p style="font-size:12px;">企業関連のカテゴリーをまとめてます。分析、Web系企業などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="boranthia.html" class="groval_bg_1"><img src="images/g_lanking_04.jpg" width="75" height="50" alt="ボランティア" /></a>
+
+<h4 style="font-size:16px;"><a href="boranthia.html" class="groval_bg_1">ボランティア</a></h4>
+<p style="font-size:12px;">ボランティア関連のカテゴリーをまとめてます。脱原発などの小カテゴリーがございます。</p>
+</div>
+
+<div class="article_box clearfix">
+
+<a href="sweet.html" class="groval_bg_1"><img src="images/g_lanking_03.jpg" width="75" height="50" alt="スイーツ" /></a>
+
+<h4 style="font-size:16px;"><a href="sweet.html" class="groval_bg_1">スイーツ</a></h4>
+<p style="font-size:12px;">スイーツ関連のカテゴリーをまとめてます。誕生日ケーキ、洋菓子、和菓子などがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="teacher.html" class="groval_bg_1"><img src="images/g_lanking_05.jpg" width="75" height="50" alt="家庭教師" /></a>
+
+<h4 style="font-size:16px;"><a href="teacher.html" class="groval_bg_1">家庭教師</a></h4>
+<p style="font-size:12px;">家庭教師関連のカテゴリーをまとめてます。今後は塾等のカテゴリーもランキング化致します。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="accessories.html" class="groval_bg_1"><img src="images/g_lanking_06.jpg" width="75" height="50" alt="パワーストーン" /></a>
+
+<h4 style="font-size:16px;"><a href="accessories.html" class="groval_bg_1">アクセサリー</a></h4>
+<p style="font-size:12px;">アクセサリー関連のカテゴリーをまとめてます。パワストーン、アクセサリーなどがございます。</p>
+</div>
+
+<div class="article_box clearfix">
+
+<a href="medical.html" class="groval_bg_1"><img src="images/g_lanking_08.jpg" width="75" height="50" alt="男性不妊" /></a>
+
+<h4 style="font-size:16px;"><a href="medical.html" class="groval_bg_1">医療</a></h4>
+<p style="font-size:12px;">医療関連のカテゴリーをまとめてます。在宅栄養管理などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="cosume.html" class="groval_bg_1"><img src="images/g_lanking_09.jpg" width="75" height="50" alt="無添加石鹸｜無添加石鹸　通販" /></a>
+
+<h4 style="font-size:16px;"><a href="cosume.html" class="groval_bg_1">化粧品</a></h4>
+<p style="font-size:12px;">化粧品関連のカテゴリーをまとめてます。石鹸、化粧水などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="health.html" class="groval_bg_1"><img src="images/g_lanking_10.jpg" width="75" height="50" alt="肩こり 解消 グッズ" /></a>
+
+<h4 style="font-size:16px;"><a href="health.html" class="groval_bg_1">健康</a></h4>
+<p style="font-size:12px;">健康関連のカテゴリーをまとめてます。健康グッズ、健康飲料などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="diet.html" class="groval_bg_1"><img src="images/g_lanking_11.jpg" width="75" height="50" alt="プチ断食｜酵素ダイエット" /></a>
+
+<h5 style="font-size:16px;"><a href="diet.html" class="groval_bg_1">ダイエット</a></h5>
+<p style="font-size:12px;">ダイエット関連のカテゴリーをまとめてます。ダイエット茶、ダイエット方法などがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="nayami.html" class="groval_bg_1"><img src="images/g_lanking_12.jpg" width="75" height="50" alt="Ｍ字はげ" /></a>
+
+<h5 style="font-size:16px;"><a href="nayami.html" class="groval_bg_1">悩み系</a></h5>
+<p style="font-size:12px;">悩み系関連のカテゴリーをまとめてます。薄毛、不妊などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="katei.html" class="groval_bg_1"><img src="images/g_lanking_13.jpg" width="75" height="50" alt="シックハウス対策｜ホルムアルデヒド除去" /></a>
+
+<h5 style="font-size:16px;"><a href="katei.html" class="groval_bg_1">家庭</a></h5>
+<p style="font-size:12px;">家庭関連のカテゴリーをまとめてます。家庭用品、家庭内問題等の小カテゴリーがございます。</p>
+</div>
+
+<div class="article_box clearfix">
+
+<a href="syoshi.html" class="groval_bg_1"><img src="images/g_lanking_14.jpg" width="75" height="50" alt="建設業許可｜建設業許可代行" /></a>
+
+<h5 style="font-size:16px;"><a href="syoshi.html" class="groval_bg_1">書士系</a></h5>
+<p style="font-size:12px;">書士系関連のカテゴリーをまとめてます。行政書士などの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="omotya.html" class="groval_bg_1"><img src="images/g_lanking_15.jpg" width="75" height="50" alt="木のおもちゃ" /></a>
+
+<h5 style="font-size:16px;"><a href="omotya.html" class="groval_bg_1">おもちゃ</a></h5>
+<p style="font-size:12px;">おもちゃ関連のカテゴリーをまとめてます。木のおもちゃなどの小カテゴリーがございます。</p>
+
+</div>
+
+<div class="article_box clearfix">
+
+<a href="inryou.html" class="groval_bg_1"><img src="images/g_lanking_16.jpg" width="75" height="50" alt="宇治茶" /></a>
+
+<h5 style="font-size:16px;"><a href="inryou.html" class="groval_bg_1">飲料</a></h5>
+<p style="font-size:12px;">飲料関連のカテゴリーをまとめてます。宇治茶・抹茶などの小カテゴリーがございます。</p>
+
+</div>
+
+</div>
+
+<div class="categoly clearfix">
+
+<h2><span>ランキング　カテゴリー別最新情報</span></h2>
+
+<div class="three-flow">
+
+<a href="rental.html" class="groval_bg_1"><img src="images/g_lanking_07.jpg" width="300" height="200" alt="観葉植物レンタル| グリーンレンタル" /></a>
+
+<h6><a href="rental.html" class="groval_bg_1">レンタル| グリーンレンタル</a></h6>
+
+<p>神奈川県を中心に観葉植物レンタルをしているグリーンレンタルのクリード。お試し観葉植物レンタル（お試しグリーンレンタル）も行っております。また、植木レンタルも行っております。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="hapiness.html" class="groval_bg_1"><img src="images/g_lanking_02.jpg" width="300" height="200" alt="開運" /></a>
+
+<h6><a href="hapiness.html" class="groval_bg_1">占い｜開運</a></h6>
+
+<p>開運イラストレーター水無月柳姫が運営するサイトです。開運にご興味のある方、スピリチュアルアート・開運アートで、自分だけの幸せを掴みませんか？</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="company.html" class="groval_bg_1"><img src="images/g_lanking_01.jpg" width="300" height="200" alt="企業" /></a>
+
+<h6><a href="company.html" class="groval_bg_1">企業｜企業</a></h6>
+
+<p>EBA株式会社です。当社はホームページ制作やランディングページ制作、ブログ広告や営業代行などのWebサービスと、EBAならではの広告代理事業も行っております。</p>
+
+</div>
+
+
+<div class="three-flow">
+
+<a href="boranthia.html" class="groval_bg_1"><img src="images/g_lanking_04.jpg" width="300" height="200" alt="ボランティア" /></a>
+
+<h6><a href="boranthia.html" class="groval_bg_1">ボランティア｜ボランティア</a></h6>
+
+<p>脱原発サイクルジャージは当社にお任せ下さい。脱原発サイクルジャージを着て、大勢で走りましょう。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="sweet.html" class="groval_bg_1"><img src="images/g_lanking_03.jpg" width="300" height="200" alt="スイーツ" /></a>
+
+<h6><a href="sweet.html" class="groval_bg_1">スイーツ｜スイーツ</a></h6>
+
+<p>只今バースデーケーキの注文が殺到しております。ヨーロッパ諸国から取り寄せる最高級の素材を使用。生産数が限られており、お届けまでに多少お時間を頂戴しますが、ご満足頂けるケーキをお届けさせて頂きます。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="teaching.html" class="groval_bg_1"><img src="images/g_lanking_05.jpg" width="300" height="200" alt="家庭教師" /></a>
+
+<h6><a href="teaching.html" class="groval_bg_1">家庭教師｜家庭教師</a></h6>
+
+<p>新潟の家庭教師の満点。新潟はもちろん、新潟市以外の中学受験、高校受験、大学受験は当社にお任せください。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="accessories.html" class="groval_bg_1"><img src="images/g_lanking_06.jpg" width="300" height="200" alt="パワーストーン" /></a>
+
+<h6><a href="accessories.html" class="groval_bg_1">アクセサリー｜パワーストーン</a></h6>
+
+<p>パワーストーン・天然石などでファッション性の高い数珠、ブレスレット等を一つ一つ丁寧に作り上げているMade in Japanのパワーストーン・アクセサリーブランドＭＩＳＵＭＩ！名前入れが出来るのでペアブレスレットやプレゼントにも最適です！</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="medical.html" class="groval_bg_1"><img src="images/g_lanking_08.jpg" width="300" height="200" alt="男性不妊" /></a>
+
+<h6><a href="medical.html" class="groval_bg_1">医療｜不妊治療</a></h6>
+
+<p>男性不妊の治療前に、郵送で精子検査【精液検査】をしましょう。男性不妊でお悩みの方は、低額で精子検査が行えますので、お気軽にお申し込みくださいませ。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="cosume.html" class="groval_bg_1"><img src="images/g_lanking_09.jpg" width="300" height="200" alt="無添加石鹸｜無添加石鹸　通販" /></a>
+
+<h6><a href="cosume.html" class="groval_bg_1">化粧品｜石鹸</a></h6>
+
+<p>無添加石鹸（洗顔石鹸）通販サイト ミントベルです♪お肌のシミ・くすみ・ニキビ・乾燥等が気になる方の無添加石鹸(固形)。◆口コミで大人気の手作り石鹸！今なら初回購入特典付き☆彡 ◆天然成分のみを使用し安心・安全・長持ち！無添加の手作り石鹸を販売(通販)しております。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="health.html" class="groval_bg_1"><img src="images/g_lanking_10.jpg" width="300" height="200" alt="肩こり 解消 グッズ" /></a>
+
+<h6><a href="health.html" class="groval_bg_1">健康｜健康グッズ</a></h6>
+
+<p>群馬長石御座入鉱山でのみ採れる天然鉱石「貴陽石」は、自然界のエネルギーを一点に凝縮した特殊鉱物であり、これまでの鉱石には考えられない「強力なマイナスイオン」と「遠赤外線」を発生させる21世紀の健康素材として必須の天然石です。肩こり解消グッズもございます。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="diet.html" class="groval_bg_1"><img src="images/g_lanking_11.jpg" width="300" height="200" alt="プチ断食｜酵素ダイエット" /></a>
+
+<h6><a href="diet.html" class="groval_bg_1">ダイエット｜プチ断食｜酵素ダイエット</a></h6>
+
+<p>プチ断食ダイエット、酵素ダイエットのフェーブリーです。プチ断食ダイエットや酵素ダイエットにご関心のある方は、酵素専門店の当社にお任せ下さい。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="nayami.html" class="groval_bg_1"><img src="images/g_lanking_12.jpg" width="300" height="200" alt="Ｍ字はげ" /></a>
+
+<h6><a href="nayami.html" class="groval_bg_1">悩み系｜育毛剤</a></h6>
+
+<p>M字はげで悩んできた管理人が実際に試した中で、M字はげに効果が見られた育毛剤をランキングにしました！！</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="katei.html" class="groval_bg_1"><img src="images/g_lanking_13.jpg" width="300" height="200" alt="シックハウス対策｜ホルムアルデヒド除去" /></a>
+
+<h6><a href="katei.html" class="groval_bg_1">家庭｜シックハウス対策｜ホルムアルデヒド除去</a></h6>
+
+<p>シックハウス対策ホルムアルデヒド除去のエムケイエコ。近年有害化学物質の影響で、シックハウス対策、ホルムアルデヒド除去が求められています。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="syoshi.html" class="groval_bg_1"><img src="images/g_lanking_14.jpg" width="300" height="200" alt="建設業許可｜建設業許可代行" /></a>
+
+<h6><a href="syoshi.html" class="groval_bg_1">書士系｜行政書士</a></h6>
+
+<p>建設業許可申請・キョカちゃん代行は、建設業許可申請・取得代行（建設業許可代行）の為の行政書士をご紹介する、新規・既存の建設業者様向けのサービスです。サービスエリアは全国になります。現在掲載の無い地域は弊社担当が紹介出来る行政書士を手配いたします。お気軽にお問合せ下さい。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="omotya.html" class="groval_bg_1"><img src="images/g_lanking_15.jpg" width="300" height="200" alt="木のおもちゃ" /></a>
+
+<h6><a href="omotya.html" class="groval_bg_1">おもちゃ｜木のおもちゃ</a></h6>
+
+<p>ニキティキ、ジョルダンをはじめとする輸入の木のおもちゃの販売。おしゃぶりから、ネフ社の積み木、クリスマスの雑貨、ボードゲーム等保育に役立つおもちゃも扱っています。</p>
+
+</div>
+
+<div class="three-flow">
+
+<a href="inryou.html" class="groval_bg_1"><img src="images/g_lanking_16.jpg" width="300" height="200" alt="宇治茶" /></a>
+
+<h6><a href="inryou.html" class="groval_bg_1">飲料｜お茶</a></h6>
+
+<p>宇治茶、抹茶、玉露、ほうじ茶、煎茶など産地直送で新鮮なお茶を全国に通販。健康茶も大人気。宇治茶・抹茶以外にも業務用のお茶も販売中です。</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="baner">
+<div>
+<a href="http://px.a8.net/svt/ejp?a8mat=2BWLK9+Q73EA+2KX0+15RZIP" target="_blank">
+<img border="0" width="230" height="230" alt="GMOクラウド" src="http://www26.a8.net/svt/bgt?aid=140929065044&wid=001&eno=01&mid=s00000012042007017000&mc=1"></a>
+<img border="0" width="1" height="1" src="http://www17.a8.net/0.gif?a8mat=2BWLK9+Q73EA+2KX0+15RZIP" alt="GMOクラウド">
+</div>
+
+<div class="baner0">
+<a href="http://ebacorp.jp/seo.html"><img src="images/seobana.jpg" width="230" height="230" alt="EBAのSEOサービス" /></a>
+</div>
+
+<div class="baner2"> 
+<p><a href="http://ebacorp.jp/blog.html"><img src="images/blog.jpg" width="230" height="230" alt="EBAのブログ広告" /></a></p>
+<p class="baner3"><a href="http://ebacorp.jp/hpseisaku.html"><img src="images/tatebana.jpg" width="230" height="950" alt="ホームページ制作" /></a></p>
+</div>
+</div>
+</div>
+
+<span class="sub_wrapper"></span>
+
+<div class="information wrapper clearfix">
+  
+  <h2><span>新着情報</span></h2>
+
+<div class="information-inner">
+<p>2015年04月01日：掲載サイトが増えました。</p>
+<p>2015年01月30日：掲載サイトが増えました。</p>
+<p>2014年12月25日：掲載サイトが増えました。</p>
+<p>2014年11月19日：掲載サイトが増えました。</p>
+<p>2014年10月27日：有料バナー掲載を始めました。</p>
+<p>2014年09月14日：掲載数が増加しました。</p>
+<p>2014年08月10日：掲載数が増加しました。</p>
+<p>2014年07月12日：掲載数が増加しました。</p>
+<p>2014年06月18日：掲載数が増加しました。</p>
+<p>2014年05月02日：掲載数が増加しました。</p>
+<p>2014年04月03日：ホームページを作成致しました。</p>
+</div>
+
+</div>
+
+<div class="footer">
+
+<div class="site-map wrapper clearfix">
+
+<div class="groval_navigetion">
+
+<ul class="groval_navigetion_veiw">
+
+<li class="groval_navigetion_list"><a href="index.html" class="groval_bg_1 child">ホーム</a></li>
+
+<li class="groval_navigetion_list"><a href="rental.html" class="groval_bg_1">レンタル</a></li>
+
+<li class="groval_navigetion_list"><a href="hapiness.html" class="groval_bg_1">占い</a></li>
+
+<li class="groval_navigetion_list"><a href="company.html" class="groval_bg_1">企業</a></li>
+
+<li class="groval_navigetion_list"><a href="boranthia.html" class="groval_bg_1">ボランティア</a></li>
+
+<li class="groval_navigetion_list"><a href="sweet.html" class="groval_bg_1">スイーツ</a></li>
+
+<li class="groval_navigetion_list"><a href="teaching.html" class="groval_bg_1">家庭教師</a></li>
+
+<li class="groval_navigetion_list"><a href="accessories.html" class="groval_bg_1">アクセサリー</a></li>
+
+<li class="groval_navigetion_list"><a href="medical.html" class="groval_bg_1 child">医療</a></li>
+
+<li class="groval_navigetion_list"><a href="cosume.html" class="groval_bg_1">化粧品</a></li>
+
+<li class="groval_navigetion_list"><a href="health.html" class="groval_bg_1">健康</a></li>
+
+<li class="groval_navigetion_list"><a href="diet.html" class="groval_bg_1">ダイエット</a></li>
+
+<li class="groval_navigetion_list"><a href="nayami.html" class="groval_bg_1">悩み系</a></li>
+
+<li class="groval_navigetion_list"><a href="katei.html" class="groval_bg_1">家庭</a></li>
+
+<li class="groval_navigetion_list"><a href="syoshi.html" class="groval_bg_1">書士系</a></li>
+
+<li class="groval_navigetion_list"><a href="omotya.html" class="groval_bg_1">おもちゃ</a></li>
+
+<li class="groval_navigetion_list"><a href="inryou.html" class="groval_bg_1 child">飲料</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<address>Copyright &copy; 2014 総合ランキングサイト All Rights Reserved. </address>
+<p style="font-size:12px;">総合ランキングサイト | ランキングサイト</p>
+</div>
+
+</body>
+</html>
