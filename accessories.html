@@ -17,11 +17,11 @@
 <script type="text/javascript">
 function($){
 	$(function() {
-		
+
 		var ddmenu = '#globalNav';
-		
+
 		$('>ul>li',ddmenu).each(function(){
-			
+
 			$(this).hover(
 				function(){
 					$('>ul',this).stop(true,true).slideDown(200);
@@ -33,7 +33,7 @@ function($){
 				}
 			);
 		});
-		
+
 	});
 });
 
@@ -66,32 +66,32 @@ function($){
 <ul>
 
 	<li><a href="#form_overlay">お問い合わせ</a>
-	
+
 		<div class="overlay" id="form_overlay">
-		
+
 		<ul>
-		
+
 		<li>この度はランキングサイトをご閲覧いただき有難うございます。ご質問などございましたらお気軽にお問い合わせくださいませ。</li>
-		
+
 		<li class="close"><a href="#page">閉じる</a></li>
-		
+
 		<li>お名前：<input type="text" name="text" /></li>
-		
+
 		<li>お問い合わせ内容：<br />
 			<textarea cols="50" rows="5"></textarea>
 		</li>
-		
+
 		<li>
 			<input type="submit" value="送信する" />
 			<input type="reset" value="リセット" />
 		</li>
-		
+
 		</ul>
-		
+
 		</div>
-	
+
 	</li>
-	
+
 </ul>
 
 </div>-->
@@ -100,52 +100,51 @@ function($){
 
 </div>
 
+
 <ul id="normal" class="dropmenu">
-  <li><a href="index.html"><img src="images/menu01.jpg" tidth="200" height="45" alt="ホーム"/></a>
-  </li>
-  
-  <li><a href="#"><img src="images/menu02.jpg" tidth="200" height="45" alt="ホーム"/></a>
-    <ul>
-<li class="groval_navigetion_list"><a href="katei.html" class="groval_bg_1">家庭</a></li>
-<li class="groval_navigetion_list"><a href="teaching.html" class="groval_bg_1">家庭教師</a></li>
-<li class="groval_navigetion_list"><a href="cosume.html" class="groval_bg_1">化粧品</a></li>
-<li class="groval_navigetion_list"><a href="inryou.html" class="groval_bg_1 child">飲料</a></li>
-<li class="groval_navigetion_list"><a href="rental.html" class="groval_bg_1">レンタル</a></li>
-<li class="groval_navigetion_list"><a href="ceremony.html" class="groval_bg_1">冠婚葬祭</a></li>
 
-</ul>
-  </li>
-  
-  <li><a href="#"><img src="images/menu03.jpg" tidth="200" height="45" alt="ホーム"/></a>
-    <ul>
-<li class="groval_navigetion_list"><a href="hapiness.html" class="groval_bg_1">占い</a></li>
-<li class="groval_navigetion_list"><a href="sweet.html" class="groval_bg_1">スイーツ</a></li>
-<li class="groval_navigetion_list"><a href="accessories.html" class="groval_bg_1">アクセサリー</a></li>
-<li class="groval_navigetion_list"><a href="omotya.html" class="groval_bg_1">おもちゃ</a></li>
-<li class="groval_navigetion_list"><a href="leisure.html" class="groval_bg_1">レジャー</a></li>
-    </ul>
-  </li>
-  
-  <li><a href="#"><img src="images/menu04.jpg" tidth="200" height="45" alt="ホーム"/></a>
-    <ul>
-<li class="groval_navigetion_list"><a href="company.html" class="groval_bg_1">企業</a></li>
-<li class="groval_navigetion_list"><a href="boranthia.html" class="groval_bg_1">ボランティア</a></li>
-<li class="groval_navigetion_list"><a href="syoshi.html" class="groval_bg_1">書士系</a></li>
-</ul>
+<li class="home"><a href="index.html"><img src="images/menu1.png" onmouseover="this.src='images/menu1-1.png'" onmouseout="this.src='images/menu1.png'" tidth="200" height="45" alt="ホーム"></a>
+　</li>
+
+<li class="life"><a href="#"><img src="images/menu2.png" onmouseover="this.src='images/menu2-1.png'" onmouseout="this.src='images/menu2.png'" tidth="200" height="45" alt="暮らし"/></a>
+	<ul>
+	 <li class="groval_navigetion_list"><a href="katei.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 家庭</a></i></li>
+	 <li class="groval_navigetion_list"><a href="teaching.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 家庭教師</a></li>
+	 <li class="groval_navigetion_list"><a href="cosume.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 化粧品</a></li>
+	 <li class="groval_navigetion_list"><a href="inryou.html" class="groval_bg_1 child"><i class="fa fa-chevron-circle-right fa-1x"></i> 飲料</a></li>
+	 <li class="groval_navigetion_list"><a href="rental.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> レンタル</a></li>
+	 <li class="groval_navigetion_list"><a href="ceremony.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 冠婚葬祭</a></li>
+	</ul>
 </li>
-  
-  <li><a href="#"><img src="images/menu05.jpg" tidth="200" height="45" alt="ホーム"/></a>
+
+  <li class="hobby"><a href="#"><img src="images/menu3.png" onmouseover="this.src='images/menu3-1.png'" onmouseout="this.src='images/menu3.png'" tidth="200" height="45" alt="趣味"/></a>
     <ul>
-<li class="groval_navigetion_list"><a href="medical.html" class="groval_bg_1 child">医療</a></li>
-<li class="groval_navigetion_list"><a href="health.html" class="groval_bg_1">健康</a></li>
-<li class="groval_navigetion_list"><a href="diet.html" class="groval_bg_1">ダイエット</a></li>
-<li class="groval_navigetion_list"><a href="nayami.html" class="groval_bg_1">悩み系</a></li>
-
-
+			<li class="groval_navigetion_list"><a href="hapiness.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 占い</a></li>
+			<li class="groval_navigetion_list"><a href="sweet.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> スイーツ</a></li>
+			<li class="groval_navigetion_list"><a href="accessories.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> アクセサリー</a></li>
+			<li class="groval_navigetion_list"><a href="omotya.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> おもちゃ</a></li>
+			<li class="groval_navigetion_list"><a href="leisure.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> レジャー</a></li>
     </ul>
   </li>
 
-</ul>  
+  <li class="business"><a href="#"><img src="images/menu4.png" onmouseover="this.src='images/menu4-1.png'" onmouseout="this.src='images/menu4.png'" tidth="200" height="45" alt="ビジネス"/></a>
+    <ul>
+			<li class="groval_navigetion_list"><a href="company.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 企業</a></li>
+			<li class="groval_navigetion_list"><a href="boranthia.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> ボランティア</a></li>
+			<li class="groval_navigetion_list"><a href="syoshi.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 書士系</a></li>
+    </ul>
+  </li>
+
+  <li class="mindbody"><a href="#"><img src="images/menu5.png" onmouseover="this.src='images/menu5-1.png'" onmouseout="this.src='images/menu5.png'" tidth="200" height="45" alt="こころとからだ"/></a>
+    <ul>
+			<li class="groval_navigetion_list"><a href="medical.html" class="groval_bg_1 child"><i class="fa fa-chevron-circle-right fa-1x"></i> 医療</a></li>
+			<li class="groval_navigetion_list"><a href="health.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 健康</a></li>
+			<li class="groval_navigetion_list"><a href="diet.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> ダイエット</a></li>
+			<li class="groval_navigetion_list"><a href="nayami.html" class="groval_bg_1"><i class="fa fa-chevron-circle-right fa-1x"></i> 悩み系</a></li>
+    </ul>
+  </li>
+
+</ul>
 </div>
 </div>
 
@@ -186,7 +185,7 @@ function($){
 <div class="baner"> <a href="http://ebacorp.jp/seo.html"><img src="images/seobana.jpg" width="230" height="230" alt="baner" /></a>
 
 </div>
-<div class="baner4"> 
+<div class="baner4">
 <p class="baner3"><a href="http://ebacorp.jp/blog.html"><img src="images/blog.jpg" width="230" height="230" alt="baner" /></a></p>
 <p class="baner3"><a href="http://ebacorp.jp/hpseisaku.html"><img src="images/tatebana.jpg" width="230" height="950" alt="baner" /></a></p>
 </div>
