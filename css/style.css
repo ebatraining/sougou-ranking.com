@@ -5,7 +5,7 @@ strong{
 font-weight: normal;
 }
 body{
-font-family:"���C���I",Meiryo,"�l�r �o�S�V�b�N","MS PGothic","�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro",Osaka,sans-serif;
+font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
 font-size: 16px;
 }
 
@@ -295,12 +295,12 @@ margin-top: 0px;
 .dropmenu li ul li{
   width: 100%;
 }
-.dropmenu li ul li a{
+/*.dropmenu li ul li a{
   padding: 15px 15px;
   border-top: 1px solid cccccc;
-  background: #cccccc;
+  background: #FF8C56;
   text-align: left;
-  opacity: 0.85; 
+  opacity: 0.85;
 }
 .dropmenu li:hover > a{
   background: #85c0db;
@@ -309,13 +309,280 @@ margin-top: 0px;
 }
 .dropmenu li a:hover{
   background: #ffffff
-    
+
+}*/
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+	color: red;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/*home*/
+
+.home:active{
+	background: #FFFFFF;
+}
+
+.home a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+
+.home a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.home a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*life*/
+
+.life ul li a{
+  padding: 15px 15px;
+	font-weight: 700;
+  border-top: 1px solid cccccc;
+  background: #FFFFFF;
+  text-align: left;
+  opacity: 0.85
+}
+
+.life a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+
+.life a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.life a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.life:active{
+	background: #FFFFFF;
+}
+
+.life li:hover > a{
+  background: #FFFFFF;
+  background: #ffffff;
+  opacity: 0.55;
+}
+
+.life li a:active{
+  background: #ffffff;
+}
+
+/*hobby*/
+
+.hobby:active{
+	background: #FFFFFF;
+}
+
+.hobby ul li a{
+  padding: 15px 15px;
+	font-weight: 700;
+  border-top: 1px solid cccccc;
+  background: #FFFFFF;
+  text-align: left;
+  opacity: 0.85;
+}
+
+.hobby a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+
+.hobby a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.hobby a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.hobby:active{
+	background: #FFFFFF;
+}
+
+.hobby li:hover > a{
+  background: #FFFFFF;
+  background: #ffffff;
+  opacity: 0.55;
+}
+
+.hobby li a:active{
+  background: #ffffff;
+}
+
+/*business*/
+
+.business:active{
+	background: #FFFFFF;
+}
+
+.business ul li a{
+  padding: 15px 15px;
+	font-weight: 700;
+  border-top: 1px solid cccccc;
+  background: #FFFFFF;
+  text-align: left;
+  opacity: 0.85;
+}
+
+.business a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+
+.business a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.business a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.business:active{
+	background: #FFFFFF;
+}
+
+.business li:hover > a{
+  background: #FFFFFF;
+  background: #ffffff;
+  opacity: 0.55;
+}
+.business li a:active{
+  background: #ffffff;
+}
+
+/*mindbody*/
+
+.mindbody:active{
+	background: #FFFFFF;
+}
+
+.mindbody ul li a{
+  padding: 15px 15px;
+	font-weight: 700;
+  border-top: 1px solid cccccc;
+  background: #FFFFFF;
+  text-align: left;
+  opacity: 0.85;
+}
+
+.mindbody a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+
+.mindbody a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: red;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.mindbody a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.mindbody:active{
+	background: #FFFFFF;
+}
+
+.mindbody li:hover > a{
+  background: #FFFFFF;
+  background: #ffffff;
+  opacity: 0.55;
+}
+.mindbody li a:active{
+  background: #ffffff;
+}
+
 
 /*アニメーション
 ------------------------------*/
 
-#normal li ul{ 
+#normal li ul{
   display: none;
 }
 #normal li:hover ul{
@@ -561,8 +828,3 @@ border-left: 1px solid #aaa;
 background: rgba(255,255,255,0.7);
 color: #00f;
 }
-
-
-
-
-
