@@ -11,14 +11,13 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/otoiawase.css"/>
+<link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
 <meta name="google-site-verification" content="lq1GtB1l8mAEaKTvkVPzKseyhO8MkyIYH0fYW_7fkJM" />
 <meta name="msvalidate.01" content="1FC35B35E388EEF0F0C8F5E3C5813000" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/topbtn.js"></script>
-
 <script type="text/javascript">
 function($){
 	$(function() {
@@ -41,20 +40,26 @@ function($){
 
 	});
 });
-
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
-<script src="js/topbtn.js"></script>
 
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.bxslider').bxSlider({
-            	auto: true,
-            });
-        });
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function() {
+      $("#slides").responsiveSlides({ 
+  auto: true,             
+  // ↑ trueで自動スライド、falseでページナビなどでスライド 
+  speed: 1500,            
+  // スライドアニメーションスピード
+  timeout: 3000,          
+  // スライドするまでの時間（画像表示時間）           
+  before: function(){},   
+  // 1枚スライドする前にcallback関数
+  after: function(){}     
+  // 1枚スライドした後のcallback関数
+});
+    });
 </script>
 
 </head>
@@ -158,29 +163,31 @@ function($){
 </div>
 </div>
 
-<div class="main-img">
 
-<ul class="bxslider">
-  <li><img src="images/rank.jpg" alt="総合ランキングサイト" /></li>
-  <li><a href="rental.html"><img src="images/rental.jpg" alt="レンタル" /></a></li>
-  <li><a href="hapiness.html"><img src="images/uranai.jpg" alt="占い" /></a></li>
-  <li><a href="company.html"><img src="images/kigyou.jpg" alt="企業" /></a></li>
-  <li><a href="boranthia.html"><img src="images/boranthia.jpg" alt="ボランティア" /></a></li>
-  <li><a href="sweet.html"><img src="images/suitu.jpg" alt="スイーツ" /></a></li>
-  <li><a href="teaching.html"><img src="images/katekyo.jpg" alt="家庭教師" /></a></li>
-  <li><a href="accessories.html"><img src="images/akuse.jpg" alt="アクセサリー" /></a></li>
-  <li><a href="medical.html"><img src="images/iryou.jpg" alt="医療" /></a></li>
-  <li><a href="cosume.html"><img src="images/kesyou.jpg" alt="化粧" /></a></li>
-  <li><a href="health.html"><img src="images/health.jpg" alt="健康" /></a></li>
-  <li><a href="diet.html"><img src="images/diet.jpg" alt="ダイエット" /></a></li>
-  <li><a href="nayami.html"><img src="images/nayami.jpg" alt="悩み" /></a></li>
-  <li><a href="katei.html"><img src="images/katei.jpg" alt="家庭" /></a></li>
-  <li><a href="omotya.html"><img src="images/omotya.jpg" alt="おもちゃ" /></a></li>
-  <li><a href="inryou.html"><img src="images/inryou.jpg" alt="飲料" /></a></li>
-  <li><a href="leisure.html"><img src="images/leisure.jpg" alt="レジャー" /></a></li>
-  <li><a href="ceremony.html"><img src="images/ceremony3.jpg" alt="冠婚葬祭" /></a></li>
+<div>
+<ul id="slides">
+  <li><img src="images/rannking_top.jpg" alt="総合ランキングサイト" /></li>
+  <li><a href="company.html"><img src="images/company_12.jpg" alt="企業" /></a></li>
+  <li><a href="medical.html"><img src="images/medicalcare_14.jpg" alt="医療" /></a></li>
+  <li><a href="inryou.html"><img src="images/drink_4.jpg" alt="飲料" /></a></li>
+  <li><a href="rental.html"><img src="images/rental_5.jpg" alt="レンタル" /></a></li>
+  <li><a href="hapiness.html"><img src="images/uranai_7.jpg" alt="占い" /></a></li>
+  <li><a href="boranthia.html"><img src="images/volunteer_13.jpg" alt="ボランティア" /></a></li>
+  <li><a href="sweet.html"><img src="images/sweets_8.jpg" alt="スイーツ" /></a></li>
+  <li><a href="accessories.html"><img src="images/accesary_9.jpg" alt="アクセサリー" /></a></li>
+  <li><a href="health.html"><img src="images/helth15.jpg" alt="健康" /></a></li>
+  <li><a href="diet.html"><img src="images/diet_16.jpg" alt="ダイエット" /></a></li>
+  <li><a href="nayami.html"><img src="images/troubel_17.jpg" alt="悩み" /></a></li>
+  <li><a href="omotya.html"><img src="images/toy_10.jpg" alt="おもちゃ" /></a></li>
+  <li><a href="katei.html"><img src="images/home_1.jpg" alt="家庭" /></a></li>
+  <li><a href="teaching.html"><img src="images/Privatetutor_2.jpg" alt="家庭教師" /></a></li>
+  <li><a href="cosume.html"><img src="images/cosmetics_3.jpg" alt="化粧" /></a></li>
+  <li><a href="leisure.html"><img src="images/leisure_11.jpg" alt="レジャー" /></a></li>
+  <li><a href="ceremony.html"><img src="images/kankon_6.jpg" alt="冠婚葬祭" /></a></li>
 </ul>
 </div>
+
+
 
 <div class="wrapper container clearfix">
 
